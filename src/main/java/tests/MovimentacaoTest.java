@@ -2,7 +2,6 @@ package tests;
 
 
 import Page.MenuPage;
-import Page.MovimentacaoPage;
 import core.BaseTest;
 import core.Propriedades;
 import org.junit.Assert;

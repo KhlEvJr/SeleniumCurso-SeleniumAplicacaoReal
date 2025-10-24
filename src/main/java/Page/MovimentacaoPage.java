@@ -9,7 +9,7 @@ import java.util.List;
 
 import static core.DriverFactory.getDriver;
 
-public class MovimentacaoPage extends BasePage{
+public class MovimentacaoPage extends BasePage {
 
     public void setDataMovimentacao(String data) {
         escrever("data_transacao", data);
@@ -42,8 +42,6 @@ public class MovimentacaoPage extends BasePage{
     public void salvar(){
         clicarBotaoPorTexto("Salvar");
     }
-
-
 
     public String obterMensagemSucesso(){
         return obterTexto(By.xpath("//div[@class='alert alert-success']"));
